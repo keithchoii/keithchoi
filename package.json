@@ -1,13 +1,14 @@
 {
   "name": "keithchoi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "keithchoii's portfolio",
+  "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx eleventy --serve"
   },
   "keywords": [],
-  "author": "",
+  "author": "Keith Choi <choikeith1997@gmail.com> (http://keithchoi.dev)",
+  "homepage": "https://github.com/keithchoii/keithchoi",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
