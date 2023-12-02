@@ -10,6 +10,8 @@ Thumbs.db
 .cache
 
 # Node modules and output
+_site
 node_modules
+package-lock.json
 dist
 src/_includes/css

@@ -1,0 +1,14 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+
+<article class="projects">
+    <div>
+        <ul>
+            {% for project in collections.projects %}
+            {{ project.content | safe }}
+            {% endfor %}
+        </ul>
+    </div>
+</article>
+
+{% endblock %}
